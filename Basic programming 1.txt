@@ -1,0 +1,18 @@
+#1..WAP to convert fahrenheit to celcius
+fah=float(input())
+cel=(fah-32)/(9/5)
+print(cel)
+#2..WAP to calculate the area of a triangle
+b=int(input())
+h=int(input())
+print(1/2*b*h)
+#3..WAP to calculate profit percentage
+cp=int(input())
+sp=int(input())
+profit=sp-cp
+print((profit*100)/cp)
+#4..WAP to find volume of sphere
+pi=3.14
+r=float(input())
+V=(4.0/3.0)*pi*(r**3)
+print(V)
